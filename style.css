@@ -1,0 +1,34 @@
+html, body {
+  font-family: "Oxygen", sans-serif; 
+  font-weight: 300; 
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 970px;
+}
+
+.logo {
+	color: white;
+	display: inline;
+	float: left;
+}
+
+.user-links {
+	display: inline-block;
+	text-align: center;
+	float: right;
+}
+
+.signup {
+	border: solid 1px #0393ff;
+	color: #0393ff;
+	text-decoration: none;
+
+}
+
+.supporting {
+  background-image: url(s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png);
+  background-size: 141px 142px;
+}
