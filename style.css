@@ -5,6 +5,7 @@ html, body {
   font-weight: 300; 
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 h1 {
@@ -28,7 +29,6 @@ h1 {
 
 .user-links li {
 	display: inline-block;
-	text-align: center;
 	float: right;
 	list-style: none;
 	padding: 5px 40px 5px 40px;
@@ -41,21 +41,15 @@ h1 {
 }
 
 section {
-	text-align: center;
 	padding-top: 30px;
 }
 
 .btn {
-	text-align: center;
 	background-color: transparent;
 	border: solid 1px #0393ff;
 	border-radius: 0;
 	color: #0393ff;
 	padding: 10px 50px 10px 50px;
-}
-
-.row {
-	text-align: center;
 }
 
 .form-control {
@@ -83,6 +77,33 @@ section {
 }
 
 .supporting {
-  background-image: url(s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png);
+  background-image: url("s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png");
   background-size: 141px 142px;
+  margin-bottom: 30px;
+}
+
+.supporting img {
+	margin-top: 20px;
+	width: 100%;
+}
+
+.supporting h2, .feature h2 {
+	padding-top: 70px;
+	color: #0393ff;
+}
+
+.feature {
+	background-image: url('https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 400px;
+	padding: 100px 0 0 0;
+}
+
+.footer ul li {
+	color: #0393ff;
+	text-decoration: none;
+	text-align: left;
+	list-style-type: none;
 }
